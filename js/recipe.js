@@ -1,14 +1,7 @@
-$('.button-collapse').sideNav({
-  menuWidth: 200,
-  edge: 'left',
-  closeOnClick: true,
-  draggable: true,
-});
-
 $('.modal').modal();
 
 $('.show_recipe_info').on('click', () => {
-  window.location.href = 'recipe_info.html';
+  window.location.href = 'recipe_details.html';
 });
 
 $('.delete_recipe').on('click', (e) => {
@@ -46,7 +39,7 @@ $('#dislike').on('click', () => {
 $(() => {
   setTimeout(() => {
     $('#preload').css('display', 'none');
-    $('#load').removeClass('hide');
+    $('.load').removeClass('hide');
   }, 2000);
 });
 
