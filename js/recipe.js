@@ -50,3 +50,7 @@ $('.edit_recipe').on('click', () => {
 $('#create_recipe').on('click', () => {
   $('div > #title').html('Create New Recipe');
 });
+
+$('.parallax').parallax();
+
+$('.button-collapse').sideNav();

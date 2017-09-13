@@ -44,19 +44,6 @@
     margin-bottom: 10px;
 }
 
-.vote_details {
-    position: absolute;
-    width: 90%;
-    top: 120px;
-    left: 10%;
-}
-
-.vote_details .col {
-    margin-right: 10px;
-    padding-top: 10px;
-    box-shadow: 2px 2px 2px #212121;
-}
-
 .hoverable{
     cursor: pointer;
 }
@@ -70,7 +57,7 @@
 }
 
 .push-content-down {
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 #search-input {
